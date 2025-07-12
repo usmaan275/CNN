@@ -51,11 +51,12 @@ This project is part of the Neural Networks and Deep Learning coursework and foc
 - Accuracy Curve: Gradual improvement with occasional plateaus.
 
 ## ▶️ Running the Code
+Ensure dependencies are installed
 ```
-# Ensure dependencies are installed
 pip install torch torchvision matplotlib
-
-# Run the training script (Python 3 recommended)
+```
+Run the training script (Python 3 recommended)
+```
 python custom_cnn_expert.py
 ```
 The script will automatically download CIFAR-10, train the model, and display the accuracy/loss plots.
